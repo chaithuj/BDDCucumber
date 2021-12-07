@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="runner">
+	<test name="test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="env" value="local" />
+		<classes>
+			<class name="com.runnerclass.Runner" />
+		</classes>
+	</test>
+</suite>

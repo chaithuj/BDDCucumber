@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-07T11:06:45Z" name="runner" finished-at="2021-12-07T11:06:59Z" duration-ms="13640">
+    <groups>
+    </groups>
+    <test started-at="2021-12-07T11:06:45Z" name="test" finished-at="2021-12-07T11:06:59Z" duration-ms="13640">
+      <class name="com.runnerclass.Runner">
+        <test-method is-config="true" signature="setUpCucumber(java.lang.String, java.lang.String)[pri:0, instance:com.runnerclass.Runner@6fe7aac8]" started-at="2021-12-07T11:06:45Z" name="setUpCucumber" finished-at="2021-12-07T11:06:46Z" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method signature="feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.runnerclass.Runner@6fe7aac8]" started-at="2021-12-07T11:06:46Z" name="feature" data-provider="features" finished-at="2021-12-07T11:06:58Z" duration-ms="12732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runnerclass.Runner@6fe7aac8]" started-at="2021-12-07T11:06:58Z" name="tearDownClass" finished-at="2021-12-07T11:06:59Z" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.runnerclass.Runner@6fe7aac8]" started-at="2021-12-07T11:06:59Z" name="endReport" finished-at="2021-12-07T11:07:00Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.runnerclass.Runner -->
+    </test> <!-- test -->
+  </suite> <!-- runner -->
+</testng-results>

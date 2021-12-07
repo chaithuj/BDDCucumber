@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [runner]">
+  <test thread-count="5" name="test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="local"/>
+    <classes>
+      <class name="com.runnerclass.Runner">
+        <methods>
+          <include name="endReport"/>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpCucumber"/>
+        </methods>
+      </class> <!-- com.runnerclass.Runner -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [runner] -->

@@ -1,0 +1,3 @@
+/tartget/
+/test-output/
+/src/main/resources/ScreenShotsFolder/
